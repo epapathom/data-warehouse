@@ -1,0 +1,7 @@
+.vscode
+.terraform
+data_warehouse_ingestion_lambda
+
+*.zip
+errored.tfstate
+secrets.tfvars
