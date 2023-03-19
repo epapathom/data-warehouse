@@ -59,7 +59,7 @@ class Redshift:
         redshift_database_name: str,
         redshift_table_name: str,
     ) -> None:
-        """_summary_
+        """This function creates a table in an Amazon Redshift Serverless database.
 
         Args:
             redshift_workgroup_name (str): the Redshift Serverless workgroup.
@@ -101,7 +101,7 @@ class Redshift:
         redshift_database_name: str,
         redshift_table_name: str,
     ) -> None:
-        """_summary_
+        """This function ingests time series data to an Amazon Redshift Serverless database table.
 
         Args:
             record (dict[str, int]): the Kinesis record to ingest.

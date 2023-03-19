@@ -10,7 +10,7 @@ class MemoryDB:
         self.redis = redis.cluster.RedisCluster(host=memorydb_host, port=6379, ssl=True)
 
     def ingest_data(self, record: dict[str, int]) -> None:
-        """This function ingests time series data to an AWS MemoryDB redis cluster.
+        """This function ingests time series data to an Amazon MemoryDB Redis cluster.
 
         Args:
             record (dict[str, int]): the Kinesis record to ingest.
