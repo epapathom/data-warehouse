@@ -13,7 +13,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "epapathom-terraform-state-2"
+    bucket = "epapathom-terraform-state"
     key    = "vpc/terraform.tfstate"
     region = "eu-central-1"
   }
